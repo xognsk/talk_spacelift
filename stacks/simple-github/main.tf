@@ -1,10 +1,14 @@
+variable "github_owner" {
+  type = string
+}
+
 provider "github" {
-  owner = "wojciech12"
+  owner = var.github_owner
 }
 
 resource "github_repository" "my_repo" {
   name        = "tf_sp_example"
-  description = "My awesome codebase"
+  description = "My even more awesome codebase"
 
   visibility = "public"
 }
