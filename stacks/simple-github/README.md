@@ -16,4 +16,4 @@
    terraform apply
    ```
 
-3. Some documentation. x
+3. Some documentation.
