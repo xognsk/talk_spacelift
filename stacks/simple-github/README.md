@@ -1,4 +1,4 @@
-# Github OpenTofu/Terraform example
+# Simple Github OpenTofu/Terraform example
 
 1. Generate the GITHUB token:
 
